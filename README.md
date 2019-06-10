@@ -18,9 +18,14 @@ gulp imagemin
 # complete
 图片将会压缩在dist文件夹里面
 
-# 未完成部分
-gulp每次都将src下的图片重新压缩，到后期将会压缩很久
-
-后面有时间再改一下gulpfile.js
+# 新增cache缓存，只压缩新增或者修改过的图片
+通过使用gulp-cache插件达到目的
 
 
+![](https://raw.githubusercontent.com/ccchhhccc/animationGallery/master/dist/blog/WeChatb30d3a27f00a76513ef6b6a0a24dc8b3.png)
+
+
+# 清空缓存
+```js
+gulp clear
+```

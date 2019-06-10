@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ccchhhccc/animationGallery#readme",
   "devDependencies": {
+    "gulp-cache": "^1.1.2",
     "gulp-imagemin": "^6.0.0",
     "imagemin-pngquant": "^8.0.0"
   },
